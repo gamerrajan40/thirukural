@@ -1,0 +1,162 @@
+html,
+body {
+  font-family: 'Open Sans', sans-serif;
+  height: 46em;
+  width: 38em;
+  font-size: 12px;
+  padding: 0px;
+  margin: 0;
+}
+
+.subheader {
+  background-color: rgb(204, 116, 219);
+  color: black;
+  font-weight: 200;
+  padding-left: 10px;
+  text-align:center;
+}
+
+#knumber{
+  float: left;
+  padding-top: 15px;
+}
+
+#mainDiv {
+  min-height: 100%;
+  margin: 0 auto -50px;
+}
+
+#adhigaramtitle {
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+}
+
+#kuralline1 {
+  font-weight: bold;
+  padding: 5px 0px 2px 0px;
+}
+
+#kuralline2 {
+  font-weight: bold;
+  padding: 2px 0px 5px 0px;
+}
+
+.content {
+  width: 95%;
+  height: 80%;
+  display: block;
+  position: relative;
+  margin: 10px;
+}
+
+.content::after {
+  content: "";
+  background: url(../img/valluvar_bg.png);
+  background-size: 100% 100%;
+  background-color: aliceblue;
+  opacity: 0.3;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+}
+
+.navigator {
+  position: relative;
+  align-content: center;
+  margin: 0 auto;
+  width: 15%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+h1 {
+  text-align: center;
+  background-color: rgb(159, 76, 173);
+  padding: 10px;
+  font-size: 24px;
+  margin: 0px;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+}
+
+.navigateImg {
+  height: 20px;
+  width: 20px;
+}
+
+p {
+  margin: 0px;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+  color: black;
+}
+
+.navigateImg:hover {
+  border-radius: 90%;
+  background-color: rgb(184, 235, 88);
+  cursor: pointer;
+}
+
+input {
+  border: 1px solid #223445;
+  border-radius: 5px;
+  width: 5em;
+  background-color: aliceblue;
+}
+
+.footer,
+.push {
+  position: fixed;
+  bottom: 0;
+  margin-top: 10px;
+  height: 70px;
+  width: 100%;
+  text-align: center;
+}
+
+.searchDiv{
+  background-color: rgb(204, 116, 219);
+  position: fixed;
+  bottom: 0;
+  margin-top: 10px;
+  height: 30px;
+  width: 100%;
+  text-align: center;
+}
+
+#searchTitle {
+  float: left;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 5px;
+}
+
+#kuralId {
+  float: inline-end;
+  padding-left: 10px;
+}
+
+#searchDiv {
+  float: right;
+  /* background-color:  rgb(204, 116, 219); */
+}
+
+#kuralIdBtn {
+  cursor: pointer;
+  border-radius: 10px;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+  margin-top: 3px;
+}
+
+#kuralIdBtn:hover {
+  background-color: rgb(184, 235, 88);
+  cursor: pointer;
+}
+
+span{
+  font-weight: bold;
+}
